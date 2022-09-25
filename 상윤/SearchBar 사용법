@@ -1,0 +1,20 @@
+    @IBOutlet weak var Searchbar: UISearchBar!
+
+
+var searchRecipeInfo = [RecipeInfo]()
+
+
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+       guard !searchText.isEmpty else {
+           searchRecipeInfo = recipes
+           tableView.reloadData()
+           return // When no items are typed, load your array still
+
+       }
+       searchRecipeInfo = recipes.filter({ (RecipeInfo) -> Bool in
+           RecipeInfo.ingredients.contains(searchText)
+    })
+       searchBar.setShowsCancelButton(true, animated: true)
+//       searching = true
+       tableView.reloadData()
+    }

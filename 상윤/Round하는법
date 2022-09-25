@@ -1,0 +1,9 @@
+ override func viewDidLoad() {
+        super.viewDidLoad()
+
+        MyprofileImage.layer.borderWidth = 0.5
+        MyprofileImage.layer.masksToBounds = false
+        MyprofileImage.layer.borderColor = UIColor.lightGray.cgColor
+        MyprofileImage.layer.cornerRadius = MyprofileImage.frame.height/2
+        MyprofileImage.clipsToBounds = true
+    }

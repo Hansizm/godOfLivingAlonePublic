@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255E381626D290F80060BC2A /* 동욱.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255E381526D290F80060BC2A /* 동욱.storyboard */; };
+		2590331626D29822006AF335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2590331526D29822006AF335 /* Main.storyboard */; };
+		25DE4B6F26CABB3500B55659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE4B6E26CABB3500B55659 /* AppDelegate.swift */; };
+		25DE4B7126CABB3500B55659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE4B7026CABB3500B55659 /* SceneDelegate.swift */; };
+		25DE4B7826CABB3600B55659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DE4B7726CABB3600B55659 /* Assets.xcassets */; };
+		25DE4B7B26CABB3600B55659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DE4B7926CABB3600B55659 /* LaunchScreen.storyboard */; };
+		FC8441D626D7C29F00AF5913 /* AddIngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8441D526D7C29F00AF5913 /* AddIngredientTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25DE4B8226CABB3600B55659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25DE4B6326CABB3500B55659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25DE4B6A26CABB3500B55659;
+			remoteInfo = "gola-recipe";
+		};
+		25DE4B8D26CABB3600B55659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25DE4B6326CABB3500B55659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25DE4B6A26CABB3500B55659;
+			remoteInfo = "gola-recipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255E381526D290F80060BC2A /* 동욱.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "동욱.storyboard"; sourceTree = "<group>"; };
+		2590331526D29822006AF335 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		25DE4B6B26CABB3500B55659 /* gola-recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gola-recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DE4B6E26CABB3500B55659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25DE4B7026CABB3500B55659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25DE4B7726CABB3600B55659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DE4B7A26CABB3600B55659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25DE4B7C26CABB3600B55659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DE4B8126CABB3600B55659 /* gola-recipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gola-recipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DE4B8C26CABB3600B55659 /* gola-recipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gola-recipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8441D526D7C29F00AF5913 /* AddIngredientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DE4B6826CABB3500B55659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE4B7E26CABB3600B55659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE4B8926CABB3600B55659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DE4B6226CABB3500B55659 = {
+			isa = PBXGroup;
+			children = (
+				25DE4B6D26CABB3500B55659 /* gola-recipe */,
+				25DE4B6C26CABB3500B55659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DE4B6C26CABB3500B55659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DE4B6B26CABB3500B55659 /* gola-recipe.app */,
+				25DE4B8126CABB3600B55659 /* gola-recipeTests.xctest */,
+				25DE4B8C26CABB3600B55659 /* gola-recipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DE4B6D26CABB3500B55659 /* gola-recipe */ = {
+			isa = PBXGroup;
+			children = (
+				25DE4B6E26CABB3500B55659 /* AppDelegate.swift */,
+				25DE4B7026CABB3500B55659 /* SceneDelegate.swift */,
+				255E381526D290F80060BC2A /* 동욱.storyboard */,
+				FC8441D526D7C29F00AF5913 /* AddIngredientTableViewController.swift */,
+				25DE4B7726CABB3600B55659 /* Assets.xcassets */,
+				25DE4B7926CABB3600B55659 /* LaunchScreen.storyboard */,
+				25DE4B7C26CABB3600B55659 /* Info.plist */,
+				2590331526D29822006AF335 /* Main.storyboard */,
+			);
+			path = "gola-recipe";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DE4B6A26CABB3500B55659 /* gola-recipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DE4B9526CABB3600B55659 /* Build configuration list for PBXNativeTarget "gola-recipe" */;
+			buildPhases = (
+				25DE4B6726CABB3500B55659 /* Sources */,
+				25DE4B6826CABB3500B55659 /* Frameworks */,
+				25DE4B6926CABB3500B55659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gola-recipe";
+			productName = "gola-recipe";
+			productReference = 25DE4B6B26CABB3500B55659 /* gola-recipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25DE4B8026CABB3600B55659 /* gola-recipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DE4B9826CABB3600B55659 /* Build configuration list for PBXNativeTarget "gola-recipeTests" */;
+			buildPhases = (
+				25DE4B7D26CABB3600B55659 /* Sources */,
+				25DE4B7E26CABB3600B55659 /* Frameworks */,
+				25DE4B7F26CABB3600B55659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25DE4B8326CABB3600B55659 /* PBXTargetDependency */,
+			);
+			name = "gola-recipeTests";
+			productName = "gola-recipeTests";
+			productReference = 25DE4B8126CABB3600B55659 /* gola-recipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25DE4B8B26CABB3600B55659 /* gola-recipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DE4B9B26CABB3600B55659 /* Build configuration list for PBXNativeTarget "gola-recipeUITests" */;
+			buildPhases = (
+				25DE4B8826CABB3600B55659 /* Sources */,
+				25DE4B8926CABB3600B55659 /* Frameworks */,
+				25DE4B8A26CABB3600B55659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25DE4B8E26CABB3600B55659 /* PBXTargetDependency */,
+			);
+			name = "gola-recipeUITests";
+			productName = "gola-recipeUITests";
+			productReference = 25DE4B8C26CABB3600B55659 /* gola-recipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DE4B6326CABB3500B55659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					25DE4B6A26CABB3500B55659 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					25DE4B8026CABB3600B55659 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 25DE4B6A26CABB3500B55659;
+					};
+					25DE4B8B26CABB3600B55659 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 25DE4B6A26CABB3500B55659;
+					};
+				};
+			};
+			buildConfigurationList = 25DE4B6626CABB3500B55659 /* Build configuration list for PBXProject "동욱's" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25DE4B6226CABB3500B55659;
+			productRefGroup = 25DE4B6C26CABB3500B55659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DE4B6A26CABB3500B55659 /* gola-recipe */,
+				25DE4B8026CABB3600B55659 /* gola-recipeTests */,
+				25DE4B8B26CABB3600B55659 /* gola-recipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DE4B6926CABB3500B55659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DE4B7B26CABB3600B55659 /* LaunchScreen.storyboard in Resources */,
+				255E381626D290F80060BC2A /* 동욱.storyboard in Resources */,
+				25DE4B7826CABB3600B55659 /* Assets.xcassets in Resources */,
+				2590331626D29822006AF335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE4B7F26CABB3600B55659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE4B8A26CABB3600B55659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DE4B6726CABB3500B55659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8441D626D7C29F00AF5913 /* AddIngredientTableViewController.swift in Sources */,
+				25DE4B6F26CABB3500B55659 /* AppDelegate.swift in Sources */,
+				25DE4B7126CABB3500B55659 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE4B7D26CABB3600B55659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE4B8826CABB3600B55659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25DE4B8326CABB3600B55659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25DE4B6A26CABB3500B55659 /* gola-recipe */;
+			targetProxy = 25DE4B8226CABB3600B55659 /* PBXContainerItemProxy */;
+		};
+		25DE4B8E26CABB3600B55659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25DE4B6A26CABB3500B55659 /* gola-recipe */;
+			targetProxy = 25DE4B8D26CABB3600B55659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25DE4B7926CABB3600B55659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DE4B7A26CABB3600B55659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DE4B9326CABB3600B55659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25DE4B9426CABB3600B55659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DE4B9626CABB3600B55659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gola-recipe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.gola-recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25DE4B9726CABB3600B55659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gola-recipe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.gola-recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25DE4B9926CABB3600B55659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gola-recipeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.gola-recipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gola-recipe.app/gola-recipe";
+			};
+			name = Debug;
+		};
+		25DE4B9A26CABB3600B55659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gola-recipeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.gola-recipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gola-recipe.app/gola-recipe";
+			};
+			name = Release;
+		};
+		25DE4B9C26CABB3600B55659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gola-recipeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.gola-recipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gola-recipe";
+			};
+			name = Debug;
+		};
+		25DE4B9D26CABB3600B55659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gola-recipeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.gola-recipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gola-recipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DE4B6626CABB3500B55659 /* Build configuration list for PBXProject "동욱's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DE4B9326CABB3600B55659 /* Debug */,
+				25DE4B9426CABB3600B55659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DE4B9526CABB3600B55659 /* Build configuration list for PBXNativeTarget "gola-recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DE4B9626CABB3600B55659 /* Debug */,
+				25DE4B9726CABB3600B55659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DE4B9826CABB3600B55659 /* Build configuration list for PBXNativeTarget "gola-recipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DE4B9926CABB3600B55659 /* Debug */,
+				25DE4B9A26CABB3600B55659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DE4B9B26CABB3600B55659 /* Build configuration list for PBXNativeTarget "gola-recipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DE4B9C26CABB3600B55659 /* Debug */,
+				25DE4B9D26CABB3600B55659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DE4B6326CABB3500B55659 /* Project object */;
+}
